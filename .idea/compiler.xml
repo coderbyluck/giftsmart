@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-services" />
+        <module name="registration-services" />
+        <module name="store-services" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="account-services" target="1.8" />
+      <module name="giftsmart" target="1.5" />
+      <module name="registration-services" target="1.8" />
+      <module name="store-services" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
