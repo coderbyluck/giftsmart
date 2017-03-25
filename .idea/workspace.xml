@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f683c8c-5a3b-4a11-838c-85685446e2b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/cache-services.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/java/org/coder/lucky/shopping/gifts/cache/HazelcastServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/java/org/coder/lucky/shopping/gifts/cache/TestClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/java/org/coder/lucky/shopping/gifts/cache/loader/CountriesIQueueStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/java/org/coder/lucky/shopping/gifts/cache/loader/ZipCodeMapLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/data/countries-iset.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/data/states-iset.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/data/zipcodes-imap.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/hazelcast-client.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/hazelcast-group.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/hazelcast-network.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache-services/src/main/resources/hazelcast.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gifts-domain/gifts-domain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gifts-domain/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gifts-domain/src/main/java/org/coder/lucky/shopping/gifts/domain/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registration-services/src/main/docker/DockerFile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-services/src/main/docker/Dockerfile" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_1_5_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/registration-services/target/classes/test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store-services/src/test/java/org/coder/services/shopper/gifts/ApplicationTests.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration-services/pom.xml" afterPath="$PROJECT_DIR$/registration-services/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration-services/registration-services.iml" afterPath="$PROJECT_DIR$/registration-services/registration-services.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-services/pom.xml" afterPath="$PROJECT_DIR$/store-services/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -824,6 +786,14 @@
       <option name="presentableId" value="Default" />
       <updated>1488680783570</updated>
     </task>
+    <task id="LOCAL-00001" summary="integrate hazelcast">
+      <created>1490406565833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490406565833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -863,6 +833,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="integrate hazelcast" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrate hazelcast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -972,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,6 +1011,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
