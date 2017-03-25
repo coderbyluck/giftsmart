@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/registration-services/account-services.iml" filepath="$PROJECT_DIR$/registration-services/account-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache-services/cache-services.iml" filepath="$PROJECT_DIR$/cache-services/cache-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gifts-domain/gifts-domain.iml" filepath="$PROJECT_DIR$/gifts-domain/gifts-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/giftsmart.iml" filepath="$PROJECT_DIR$/giftsmart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../../samples/gs-spring-boot-docker/complete/gs-spring-boot-docker.iml" filepath="$PROJECT_DIR$/../../../../../../samples/gs-spring-boot-docker/complete/gs-spring-boot-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/registration-services/registration-services.iml" filepath="$PROJECT_DIR$/registration-services/registration-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-services/store-services.iml" filepath="$PROJECT_DIR$/store-services/store-services.iml" />
     </modules>

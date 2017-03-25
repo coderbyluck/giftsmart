@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hazelcast
+        xsi:schemaLocation="http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.9.xsd"
+        xmlns="http://www.hazelcast.com/schema/config"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <import resource="hazelcast-group.xml"/>
+    <import resource="hazelcast-network.xml"/>
+
+    <!--Caches-->
+    <import resource="data/states-iset.xml"/>
+    <import resource="data/countries-iset.xml"/>
+    <import resource="data/zipcodes-imap.xml"/>
+
+</hazelcast>

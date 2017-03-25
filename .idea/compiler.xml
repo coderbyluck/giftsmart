@@ -7,13 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-services" />
+        <module name="cache-services" />
+        <module name="gifts-domain" />
+        <module name="gs-spring-boot-docker" />
         <module name="registration-services" />
         <module name="store-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="account-services" target="1.8" />
+      <module name="cache-services" target="1.6" />
+      <module name="cacheserver" target="1.8" />
+      <module name="gift-domain" target="1.5" />
+      <module name="giftdomain" target="1.5" />
+      <module name="gifts-domain" target="1.6" />
       <module name="giftsmart" target="1.5" />
+      <module name="gs-spring-boot-docker" target="1.8" />
       <module name="registration-services" target="1.8" />
       <module name="store-services" target="1.8" />
     </bytecodeTargetLevel>
